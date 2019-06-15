@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remove-project name="LineageOS/android_system_bt" />
+  <project name="LineageOS/android_device_samsung_jf-common" path="device/samsung/jf-common" remote="github" revision="lineage-16.0" />
+  <project name="LineageOS/android_device_samsung_jfltexx" path="device/samsung/jfltexx" remote="github" revision="lineage-16.0" />
   <project name="LineageOS/android_device_samsung_qcom-common" path="device/samsung/qcom-common" remote="github" revision="lineage-16.0" />
   <project name="LineageOS/android_hardware_samsung" path="hardware/samsung" remote="github" revision="lineage-16.0" />
+  <project name="LineageOS/android_kernel_samsung_jf" path="kernel/samsung/jf" remote="github" revision="lineage-16.0" />
+  <project name="LineageOS/android_packages_apps_FlipFlap" path="packages/apps/FlipFlap" remote="github" revision="lineage-16.0" />
   <project name="LineageOS/android_packages_resources_devicesettings" path="packages/resources/devicesettings" remote="github" revision="lineage-16.0" />
-  <project name="los-legacy/android_device_samsung_jf-common" path="device/samsung/jf-common" remote="github" revision="lineage-16.0" />
-  <project name="los-legacy/android_device_samsung_jfltexx" path="device/samsung/jfltexx" remote="github" revision="lineage-16.0" />
-  <project name="los-legacy/android_kernel_samsung_jf" path="kernel/samsung/jf" remote="github" revision="lineage-16.0" />
-  <project name="los-legacy/android_system_bt" path="system/bt" remote="github" revision="lineage-16.0" />
-  <project name="los-legacy/proprietary_vendor_samsung_jf" path="vendor/samsung" remote="github" revision="lineage-16.0" />
+  <project name="TheMuppets/proprietary_vendor_samsung" path="vendor/samsung" remote="github" revision="lineage-16.0" />
 </manifest>
