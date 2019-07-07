@@ -11,20 +11,17 @@ To initialize your local repository using our trees, use a command like this:
 
 ```
 1. mkdir -p InFusionX-i9515 && cd InFusionX-i9515
-
-2. Initialize your local repository using the LineageOS trees with a command
-  repo init -u git://github.com/LineageOS/android.git -b lineage-16.0
-  
-3. Clone this repo:
+ 
+2. Clone this repo:
   git clone git://https://github.com/team-infusion-developers/local_manifests.git -b lineage-16.0
 
-4. Sync LineageOS trees:
+3. Sync LineageOS trees:
   repo sync --no-tags --no-clone-bundle --force-sync -c -j8
 
 
 Building
 ---------------
-6. To build:
+4. To build:
   . build/envsetup.sh
   lunch lineage_jfvelte-userdebug
   make -j8 bacon
