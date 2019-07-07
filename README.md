@@ -16,7 +16,7 @@ To initialize your local repository using our trees, use a command like this:
   repo init -u git://github.com/LineageOS/android.git -b lineage-16.0
   
 3. Clone this repo:
-  git clone git://github.com/team-infusion-developers/android_local_manifest_jfvelte.git -b lineage-16.0
+  git clone git://https://github.com/team-infusion-developers/local_manifests.git -b lineage-16.0
 
 4. Sync LineageOS trees:
   repo sync --no-tags --no-clone-bundle --force-sync -c -j8
