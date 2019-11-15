@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <project name="LineageOS/android_device_samsung_msm8930-common" path="device/samsung/msm8930-common" remote="github" revision="lineage-18.1" />
+  <project name="LineageOS/android_device_samsung_qcom-common" path="device/samsung/qcom-common" remote="github" revision="lineage-18.1" />
+  <project name="LineageOS/android_kernel_samsung_msm8930-common" path="kernel/samsung/msm8930-common" remote="github" revision="lineage-18.1" />
+  <project name="TheMuppets/proprietary_vendor_samsung" path="vendor/samsung" remote="github" revision="lineage-18.1" />
+  <project name="team-infusion-developers/android_device_samsung_serrano-common" path="device/samsung/serrano-common" remote="github" revision="havoc-eleven" />
+  <project name="team-infusion-developers/android_device_samsung_serranodsdd" path="device/samsung/serranodsdd" remote="github" revision="havoc-eleven" />
+  <project name="team-infusion-developers/android_hardware_samsung" path="hardware/samsung" remote="github" revision="havoc-eleven" />
+</manifest>
